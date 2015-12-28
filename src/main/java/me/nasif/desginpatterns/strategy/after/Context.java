@@ -2,9 +2,9 @@ package me.nasif.desginpatterns.strategy.after;
 
 public class Context {
 
-    private final Strategy strategy;
+    private Strategy strategy;
 
-    public Context(Strategy strategy) {
+    public void setStrategy(Strategy strategy) {
         this.strategy = strategy;
     }
 
