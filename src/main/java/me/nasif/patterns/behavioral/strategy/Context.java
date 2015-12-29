@@ -1,4 +1,4 @@
-package me.nasif.desginpatterns.strategy.after;
+package me.nasif.patterns.behavioral.strategy;
 
 public class Context {
 

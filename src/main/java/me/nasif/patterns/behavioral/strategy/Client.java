@@ -1,4 +1,4 @@
-package me.nasif.desginpatterns.strategy.after;
+package me.nasif.patterns.behavioral.strategy;
 
 public class Client {
 
@@ -15,7 +15,7 @@ public class Client {
         context.setStrategy(new Multiply());
         System.out.println("10 * 5 = " + context.executeStrategy(10, 5));
         
-        context.setStrategy(new Devide());
+        context.setStrategy(new Divide());
         System.out.println("10 / 5 = " + context.executeStrategy(10, 5));
     }
 }
